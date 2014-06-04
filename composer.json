@@ -1,0 +1,24 @@
+{
+    "name": "ebeyrent/visualsearch",
+    "description": "Visual Search api",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"visualsearch": "src"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ebeyrent/visualsearch.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ebeyrent/gd-master" : "dev-master"
+    }
+}
